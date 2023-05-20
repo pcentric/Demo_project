@@ -22,7 +22,7 @@ function InputData() {
           placeholder="0.0"
           className="flex-grow text-black text-xl placeholder-[#0B366B] outline-none bg-transparent"
         />
-        <div className="flex items-center space-x-2">
+        <div className="hidden sm:flex items-center space-x-2">
           <button className="bg-[#137CE7] flex items-center space-x-3 text-white font-normal py-1 px-3 rounded-3xl ">
             {" "}
             Max
