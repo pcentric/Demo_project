@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: url("assets/bg.svg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+@media (max-width: 640px) {
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
